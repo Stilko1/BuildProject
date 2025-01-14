@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildMaterialApp", "BuildMaterialApp.csproj", "{EB4144D1-760D-4E79-AAC7-F8AD33BDBD28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildMaterialApp.Infrastructure", "..\BuildMaterialApp.Infrastructure\BuildMaterialApp.Infrastructure.csproj", "{C4ECFC3B-9242-4F8A-9DA0-91FD2F27B8CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB4144D1-760D-4E79-AAC7-F8AD33BDBD28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB4144D1-760D-4E79-AAC7-F8AD33BDBD28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB4144D1-760D-4E79-AAC7-F8AD33BDBD28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB4144D1-760D-4E79-AAC7-F8AD33BDBD28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4ECFC3B-9242-4F8A-9DA0-91FD2F27B8CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4ECFC3B-9242-4F8A-9DA0-91FD2F27B8CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4ECFC3B-9242-4F8A-9DA0-91FD2F27B8CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4ECFC3B-9242-4F8A-9DA0-91FD2F27B8CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1020160B-C86C-40CF-986D-8C0330BB8BFB}
+	EndGlobalSection
+EndGlobal
