@@ -1,0 +1,14 @@
+C:\Users\Student\Documents\Stilko VS\BuildMaterialApp\BuildMaterial.Infrastructure\bin\Debug\net6.0\BuildMaterial.Infrastructure.deps.json
+C:\Users\Student\Documents\Stilko VS\BuildMaterialApp\BuildMaterial.Infrastructure\bin\Debug\net6.0\BuildMaterial.Infrastructure.dll
+C:\Users\Student\Documents\Stilko VS\BuildMaterialApp\BuildMaterial.Infrastructure\bin\Debug\net6.0\BuildMaterial.Infrastructure.pdb
+C:\Users\Student\Documents\Stilko VS\BuildMaterialApp\BuildMaterial.Infrastructure\obj\Debug\net6.0\BuildMaterial.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Student\Documents\Stilko VS\BuildMaterialApp\BuildMaterial.Infrastructure\obj\Debug\net6.0\BuildMaterial.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\Documents\Stilko VS\BuildMaterialApp\BuildMaterial.Infrastructure\obj\Debug\net6.0\BuildMaterial.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Student\Documents\Stilko VS\BuildMaterialApp\BuildMaterial.Infrastructure\obj\Debug\net6.0\BuildMaterial.Infrastructure.AssemblyInfo.cs
+C:\Users\Student\Documents\Stilko VS\BuildMaterialApp\BuildMaterial.Infrastructure\obj\Debug\net6.0\BuildMaterial.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Student\Documents\Stilko VS\BuildMaterialApp\BuildMaterial.Infrastructure\obj\Debug\net6.0\BuildMaterial.Infrastructure.dll
+C:\Users\Student\Documents\Stilko VS\BuildMaterialApp\BuildMaterial.Infrastructure\obj\Debug\net6.0\refint\BuildMaterial.Infrastructure.dll
+C:\Users\Student\Documents\Stilko VS\BuildMaterialApp\BuildMaterial.Infrastructure\obj\Debug\net6.0\BuildMaterial.Infrastructure.pdb
+C:\Users\Student\Documents\Stilko VS\BuildMaterialApp\BuildMaterial.Infrastructure\obj\Debug\net6.0\ref\BuildMaterial.Infrastructure.dll
+C:\Users\Student\Documents\Stilko VS\BuildMaterialApp\BuildMaterial.Infrastructure\bin\Debug\net6.0\BuildMaterial.Infrastructure.runtimeconfig.json
+C:\Users\Student\Documents\Stilko VS\BuildMaterialApp\BuildMaterial.Infrastructure\obj\Debug\net6.0\BuildMaterial.Infrastructure.genruntimeconfig.cache
