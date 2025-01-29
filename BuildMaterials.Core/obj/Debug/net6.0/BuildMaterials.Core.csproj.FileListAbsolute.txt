@@ -1,0 +1,17 @@
+C:\Users\stili\Documents\StilkoVS\BuildMaterialsApp\BuildMaterials.Core\obj\Debug\net6.0\BuildMaterials.Core.csproj.AssemblyReference.cache
+C:\Users\stili\Documents\StilkoVS\BuildMaterialsApp\BuildMaterials.Core\obj\Debug\net6.0\BuildMaterials.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stili\Documents\StilkoVS\BuildMaterialsApp\BuildMaterials.Core\obj\Debug\net6.0\BuildMaterials.Core.AssemblyInfoInputs.cache
+C:\Users\stili\Documents\StilkoVS\BuildMaterialsApp\BuildMaterials.Core\obj\Debug\net6.0\BuildMaterials.Core.AssemblyInfo.cs
+C:\Users\stili\Documents\StilkoVS\BuildMaterialsApp\BuildMaterials.Core\obj\Debug\net6.0\BuildMaterials.Core.csproj.CoreCompileInputs.cache
+C:\Users\stili\Documents\StilkoVS\BuildMaterialsApp\BuildMaterials.Core\bin\Debug\net6.0\BuildMaterials.Core.deps.json
+C:\Users\stili\Documents\StilkoVS\BuildMaterialsApp\BuildMaterials.Core\bin\Debug\net6.0\BuildMaterials.Core.runtimeconfig.json
+C:\Users\stili\Documents\StilkoVS\BuildMaterialsApp\BuildMaterials.Core\bin\Debug\net6.0\BuildMaterials.Core.dll
+C:\Users\stili\Documents\StilkoVS\BuildMaterialsApp\BuildMaterials.Core\bin\Debug\net6.0\BuildMaterials.Core.pdb
+C:\Users\stili\Documents\StilkoVS\BuildMaterialsApp\BuildMaterials.Core\bin\Debug\net6.0\BuildMaterials.Infrastructure.dll
+C:\Users\stili\Documents\StilkoVS\BuildMaterialsApp\BuildMaterials.Core\bin\Debug\net6.0\BuildMaterials.Infrastructure.pdb
+C:\Users\stili\Documents\StilkoVS\BuildMaterialsApp\BuildMaterials.Core\obj\Debug\net6.0\BuildMat.B65C1EE2.Up2Date
+C:\Users\stili\Documents\StilkoVS\BuildMaterialsApp\BuildMaterials.Core\obj\Debug\net6.0\BuildMaterials.Core.dll
+C:\Users\stili\Documents\StilkoVS\BuildMaterialsApp\BuildMaterials.Core\obj\Debug\net6.0\refint\BuildMaterials.Core.dll
+C:\Users\stili\Documents\StilkoVS\BuildMaterialsApp\BuildMaterials.Core\obj\Debug\net6.0\BuildMaterials.Core.pdb
+C:\Users\stili\Documents\StilkoVS\BuildMaterialsApp\BuildMaterials.Core\obj\Debug\net6.0\BuildMaterials.Core.genruntimeconfig.cache
+C:\Users\stili\Documents\StilkoVS\BuildMaterialsApp\BuildMaterials.Core\obj\Debug\net6.0\ref\BuildMaterials.Core.dll

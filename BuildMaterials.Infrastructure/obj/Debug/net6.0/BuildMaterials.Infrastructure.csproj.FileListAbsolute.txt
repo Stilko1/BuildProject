@@ -1,0 +1,12 @@
+C:\Users\stili\Documents\StilkoVS\BuildMaterialsApp\BuildMaterials.Infrastructure\obj\Debug\net6.0\BuildMaterials.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\stili\Documents\StilkoVS\BuildMaterialsApp\BuildMaterials.Infrastructure\obj\Debug\net6.0\BuildMaterials.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stili\Documents\StilkoVS\BuildMaterialsApp\BuildMaterials.Infrastructure\obj\Debug\net6.0\BuildMaterials.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\stili\Documents\StilkoVS\BuildMaterialsApp\BuildMaterials.Infrastructure\obj\Debug\net6.0\BuildMaterials.Infrastructure.AssemblyInfo.cs
+C:\Users\stili\Documents\StilkoVS\BuildMaterialsApp\BuildMaterials.Infrastructure\obj\Debug\net6.0\BuildMaterials.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\stili\Documents\StilkoVS\BuildMaterialsApp\BuildMaterials.Infrastructure\bin\Debug\net6.0\BuildMaterials.Infrastructure.deps.json
+C:\Users\stili\Documents\StilkoVS\BuildMaterialsApp\BuildMaterials.Infrastructure\bin\Debug\net6.0\BuildMaterials.Infrastructure.dll
+C:\Users\stili\Documents\StilkoVS\BuildMaterialsApp\BuildMaterials.Infrastructure\bin\Debug\net6.0\BuildMaterials.Infrastructure.pdb
+C:\Users\stili\Documents\StilkoVS\BuildMaterialsApp\BuildMaterials.Infrastructure\obj\Debug\net6.0\BuildMaterials.Infrastructure.dll
+C:\Users\stili\Documents\StilkoVS\BuildMaterialsApp\BuildMaterials.Infrastructure\obj\Debug\net6.0\refint\BuildMaterials.Infrastructure.dll
+C:\Users\stili\Documents\StilkoVS\BuildMaterialsApp\BuildMaterials.Infrastructure\obj\Debug\net6.0\BuildMaterials.Infrastructure.pdb
+C:\Users\stili\Documents\StilkoVS\BuildMaterialsApp\BuildMaterials.Infrastructure\obj\Debug\net6.0\ref\BuildMaterials.Infrastructure.dll
