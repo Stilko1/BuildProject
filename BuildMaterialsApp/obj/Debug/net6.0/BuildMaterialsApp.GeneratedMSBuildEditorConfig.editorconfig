@@ -52,6 +52,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XFN1Y2Nlc3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/stili/Documents/StilkoVS/BuildMaterialsApp/BuildMaterialsApp/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/stili/Documents/StilkoVS/BuildMaterialsApp/BuildMaterialsApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -106,6 +110,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/stili/Documents/StilkoVS/BuildMaterialsApp/BuildMaterialsApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stili/Documents/StilkoVS/BuildMaterialsApp/BuildMaterialsApp/Views/ShopingCard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcGluZ0NhcmRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/stili/Documents/StilkoVS/BuildMaterialsApp/BuildMaterialsApp/Views/Statistic/Index.cshtml]

@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\BuildMaterialsApp.p3n6try4o7.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\stili\\Documents\\StilkoVS\\BuildMaterialsApp\\BuildMaterialsApp\\wwwroot\\css\\Contact\\StyleSheet.css",
+      "PackagePath": "staticwebassets\\css\\Contact\\StyleSheet.css"
+    },
+    {
+      "Id": "C:\\Users\\stili\\Documents\\StilkoVS\\BuildMaterialsApp\\BuildMaterialsApp\\wwwroot\\css\\ShoppingCart\\ShoppingCart.css",
+      "PackagePath": "staticwebassets\\css\\ShoppingCart\\ShoppingCart.css"
+    },
+    {
       "Id": "C:\\Users\\stili\\Documents\\StilkoVS\\BuildMaterialsApp\\BuildMaterialsApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

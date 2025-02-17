@@ -7,6 +7,7 @@ using BuildMaterials.Infrastructure.Data.Domain;
 using BuildMaterials.Infrastructure.Infrastructure;
 using BuildMaterials.Core.Services;
 using WebShopApp.Core.Services;
+using ShoppingCart = BuildMaterials.Core.Services.ShoppingCart;
 
 
 
@@ -44,7 +45,8 @@ namespace BuildMaterials
             builder.Services.AddTransient<IProductService, ProductService>();
             builder.Services.AddTransient<IStatisticService, StatisticService>();
             builder.Services.AddTransient<IOrderService, OrderService>();
-
+            builder.Services.AddTransient<IContactService, ContactService>();
+            builder.Services.AddTransient<IShoppingCart, ShoppingCart>();
             var app = builder.Build();
             app.PrepareDatabase();
             // Configure the HTTP request pipeline.

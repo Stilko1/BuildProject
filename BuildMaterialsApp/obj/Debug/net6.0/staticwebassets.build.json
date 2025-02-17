@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ANjLrSnvuUGWdE7wviSjRWcnPNpymnqAWLbzcSi0JDA=",
+  "Hash": "0fbjbxG4Y2tPfor85AisiG9iOyjwowICIJcxuVJklqg=",
   "Source": "BuildMaterialsApp",
   "BasePath": "_content/BuildMaterialsApp",
   "Mode": "Default",
@@ -1319,6 +1319,48 @@
       "OriginalItemSpec": "C:\\Users\\stili\\Documents\\StilkoVS\\BuildMaterialsApp\\BuildMaterialsApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BuildMaterialsApp.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\stili\\Documents\\StilkoVS\\BuildMaterialsApp\\BuildMaterialsApp\\wwwroot\\css\\Contact\\StyleSheet.css",
+      "SourceId": "BuildMaterialsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\stili\\Documents\\StilkoVS\\BuildMaterialsApp\\BuildMaterialsApp\\wwwroot\\",
+      "BasePath": "_content/BuildMaterialsApp",
+      "RelativePath": "css/Contact/StyleSheet#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wjt01rnao8",
+      "Integrity": "nHIKYvU86iU7YTgmgMH4Nd3rkz96I55OdbyTo+0bSm8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Contact\\StyleSheet.css"
+    },
+    {
+      "Identity": "C:\\Users\\stili\\Documents\\StilkoVS\\BuildMaterialsApp\\BuildMaterialsApp\\wwwroot\\css\\ShoppingCart\\ShoppingCart.css",
+      "SourceId": "BuildMaterialsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\stili\\Documents\\StilkoVS\\BuildMaterialsApp\\BuildMaterialsApp\\wwwroot\\",
+      "BasePath": "_content/BuildMaterialsApp",
+      "RelativePath": "css/ShoppingCart/ShoppingCart#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6dmvrta3td",
+      "Integrity": "Bo6OigZVnA2iY1UGrYWOZWwSTZHq+QT1cLwkFs+PJEg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\ShoppingCart\\ShoppingCart.css"
+    },
+    {
       "Identity": "C:\\Users\\stili\\Documents\\StilkoVS\\BuildMaterialsApp\\BuildMaterialsApp\\wwwroot\\css\\site.css",
       "SourceId": "BuildMaterialsApp",
       "SourceType": "Discovered",
@@ -1333,8 +1375,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "oq8r4nbcb2",
-      "Integrity": "AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL+c=",
+      "Fingerprint": "49wxgjfhh2",
+      "Integrity": "iI2pTQ2CwwQVh6s63NBeSjjomwUupceY9WvHGClKk3I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -2745,6 +2787,215 @@
       ]
     },
     {
+      "Route": "css/Contact/StyleSheet.css",
+      "AssetFile": "C:\\Users\\stili\\Documents\\StilkoVS\\BuildMaterialsApp\\BuildMaterialsApp\\wwwroot\\css\\Contact\\StyleSheet.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1183"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nHIKYvU86iU7YTgmgMH4Nd3rkz96I55OdbyTo+0bSm8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 10:33:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nHIKYvU86iU7YTgmgMH4Nd3rkz96I55OdbyTo+0bSm8="
+        }
+      ]
+    },
+    {
+      "Route": "css/Contact/StyleSheet.wjt01rnao8.css",
+      "AssetFile": "C:\\Users\\stili\\Documents\\StilkoVS\\BuildMaterialsApp\\BuildMaterialsApp\\wwwroot\\css\\Contact\\StyleSheet.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1183"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nHIKYvU86iU7YTgmgMH4Nd3rkz96I55OdbyTo+0bSm8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 10:33:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wjt01rnao8"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Contact/StyleSheet.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nHIKYvU86iU7YTgmgMH4Nd3rkz96I55OdbyTo+0bSm8="
+        }
+      ]
+    },
+    {
+      "Route": "css/ShoppingCart/ShoppingCart.6dmvrta3td.css",
+      "AssetFile": "C:\\Users\\stili\\Documents\\StilkoVS\\BuildMaterialsApp\\BuildMaterialsApp\\wwwroot\\css\\ShoppingCart\\ShoppingCart.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3413"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Bo6OigZVnA2iY1UGrYWOZWwSTZHq+QT1cLwkFs+PJEg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 08:13:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6dmvrta3td"
+        },
+        {
+          "Name": "label",
+          "Value": "css/ShoppingCart/ShoppingCart.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Bo6OigZVnA2iY1UGrYWOZWwSTZHq+QT1cLwkFs+PJEg="
+        }
+      ]
+    },
+    {
+      "Route": "css/ShoppingCart/ShoppingCart.css",
+      "AssetFile": "C:\\Users\\stili\\Documents\\StilkoVS\\BuildMaterialsApp\\BuildMaterialsApp\\wwwroot\\css\\ShoppingCart\\ShoppingCart.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3413"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Bo6OigZVnA2iY1UGrYWOZWwSTZHq+QT1cLwkFs+PJEg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 08:13:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Bo6OigZVnA2iY1UGrYWOZWwSTZHq+QT1cLwkFs+PJEg="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.49wxgjfhh2.css",
+      "AssetFile": "C:\\Users\\stili\\Documents\\StilkoVS\\BuildMaterialsApp\\BuildMaterialsApp\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1545"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iI2pTQ2CwwQVh6s63NBeSjjomwUupceY9WvHGClKk3I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Feb 2025 09:05:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "49wxgjfhh2"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iI2pTQ2CwwQVh6s63NBeSjjomwUupceY9WvHGClKk3I="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\stili\\Documents\\StilkoVS\\BuildMaterialsApp\\BuildMaterialsApp\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -2755,7 +3006,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "194"
+          "Value": "1545"
         },
         {
           "Name": "Content-Type",
@@ -2763,11 +3014,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL+c=\""
+          "Value": "\"iI2pTQ2CwwQVh6s63NBeSjjomwUupceY9WvHGClKk3I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 27 Jan 2025 11:37:36 GMT"
+          "Value": "Fri, 07 Feb 2025 09:05:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2777,52 +3028,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL+c="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.oq8r4nbcb2.css",
-      "AssetFile": "C:\\Users\\stili\\Documents\\StilkoVS\\BuildMaterialsApp\\BuildMaterialsApp\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "194"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL+c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 27 Jan 2025 11:37:36 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "oq8r4nbcb2"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL+c="
+          "Value": "sha256-iI2pTQ2CwwQVh6s63NBeSjjomwUupceY9WvHGClKk3I="
         }
       ]
     },

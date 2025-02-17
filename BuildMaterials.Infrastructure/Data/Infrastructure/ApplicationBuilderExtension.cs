@@ -38,13 +38,13 @@ namespace BuildMaterials.Infrastructure.Infrastructure
 
             dataCategory.Categories.AddRange(new[]
             {
-            new Category {CategoryName="Laptop"},
-            new Category {CategoryName="Computer"},
-            new Category {CategoryName="Monitor"},
-            new Category {CategoryName="Accessory"},
-            new Category {CategoryName="TV"},
-            new Category {CategoryName="Mobile phone"},
-            new Category {CategoryName="Smart watch"}
+            new Category {CategoryName="Cement"},
+            new Category {CategoryName="Latex"},
+            new Category {CategoryName="Plaster"},
+            new Category {CategoryName="Parquet"},
+            new Category {CategoryName="Tiles"},
+            new Category {CategoryName="Concrete"},
+            new Category {CategoryName="Filts"}
             });
 
             dataCategory.SaveChanges();
@@ -59,14 +59,14 @@ namespace BuildMaterials.Infrastructure.Infrastructure
 
             dataBrand.Brands.AddRange(new[]
             {
-            new Brand {BrandName="Acer"},
-            new Brand {BrandName="Asus"},
-            new Brand {BrandName="Apple"},
-            new Brand {BrandName="Dell"},
-            new Brand {BrandName="HP"},
-            new Brand {BrandName="Huawei"},
-            new Brand {BrandName="Lenovo"},
-            new Brand {BrandName="Samsung"}
+            new Brand {BrandName="Holcim"},
+            new Brand {BrandName="Unipro"},
+            new Brand {BrandName="Adiplast"},
+            new Brand {BrandName="Ceresit"},
+            new Brand {BrandName="Adiflex"},
+            new Brand {BrandName="Mapei Lampocem"},
+            new Brand {BrandName="Anrifriz"},
+            new Brand {BrandName="Sika"}
             });
 
             dataBrand.SaveChanges();

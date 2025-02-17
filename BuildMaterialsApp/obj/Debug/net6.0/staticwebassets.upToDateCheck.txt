@@ -1,3 +1,5 @@
+wwwroot\css\Contact\StyleSheet.css
+wwwroot\css\ShoppingCart\ShoppingCart.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\js\site.js

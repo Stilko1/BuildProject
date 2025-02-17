@@ -4,96 +4,125 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>@ViewData["Title"] - BuildMaterialsApp</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
 	<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 	<link rel="stylesheet" href="~/BuildMaterialsApp.styles.css" asp-append-version="true" />
+	<title>Building Categories Menu</title>
+	@RenderSection("Styles", required: false)
+	
+	<script>
+		 function toggleMenu() {
+			var menu = document.getElementById("nav-menu");
+			if (menu.style.display === "none" || menu.style.display === "") {
+				menu.style.display = "block";
+			} else {
+				menu.style.display = "none";
+			}
+		}
+	</script>
 </head>
 <body>
 	<header>
 		<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
 			<div class="container-fluid">
-				<a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">BuildMaterialsApp</a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-						aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-					<ul class="navbar-nav flex-grow-1">
-						<li class="nav-item">
-							<a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-						</li>
-
-						<li class="nav-item">
-							<a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link text-dark" asp-area="" asp-controller="Product" asp-action="Index">Products</a>
-						</li>
-						<li class="dropdown">
-							<button class="btn btn-secondary dropdown-toggle" type="button" id="dropDownMenuButton1"
-									data-bs-toggle="dropdown" aria-expanded="false">
-								Products
-							</button>
-							<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-								<li><a class="dropdown-item" asp-controller="Product" asp-action="Index" asp-route-searchStringBrandName="Dell">DELL</a></li>
-								<li><a class="dropdown-item" asp-controller="Product" asp-action="Index" asp-route-searchStringBrandName="Acer">ACER</a></li>
-								<li><a class="dropdown-item" asp-controller="Product" asp-action="Index" asp-route-searchStringBrandName="Hp">HP</a></li>
-							</ul>
-						</li>
-
-
-
-						@if (User.Identity!.IsAuthenticated)
-						{
-							<li class="nav-item">
-								<a class="nav-link text-dark" asp-area="" asp-controller="Order" asp-action="MyOrders">My Orders</a>
-							</li>
-
-
-						}
-						@if (User.Identity.IsAuthenticated && User.IsInRole("Administrator"))
-						{
-							<li class="dropdown">
-								<button class="btn btn-secondary dropdown-toggle" type="button" id="dropDownMenuButton1"
-										data-bs-toggle="dropdown" aria-expanded="false">
-									Statistic Modul
-								</button>
-
-								<ul class="dropdown-menu" aria-labelledby="dropDownMenuButton1">
-									<li><a class="dropdown-item" href="/Client/"Index">Clients</a></li>
-									<li><a class="dropdown-item" href="/Order/" Index">Orders</a></li>
-									<li><a class="dropdown-item" href="/Statistic/"Index">Statistics</a></li>
-
-
-								</ul>
-							</li>
-						}
-
-
-
-
-					</ul>
-
-
-					<partial name="_LoginPartial" />
+				<div class="d-flex align-content-center">
+					<button class="btn btn-blue" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">BuildMaterialsApp</a>
 				</div>
+				<div class="button align-content-center">
+					<button class="btn btn-blue" type="button">
+					</button>
+					<a class="button" asp-area="" asp-controller="ShoppingCart" asp-action="Index">🛒</a>
+				</div>
+				<ul class="menu" id="nav-menu">
+					<li class="nav-item">
+						<a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-dark" asp-area="" asp-controller="Product" asp-action="Index">Products</a>
+						<ul class="submenu">
+							<li><a href="#">Residential Buildings</a></li>
+							<li><a href="#">Commercial Buildings</a></li>
+							<li><a href="#">Industrial Buildings</a></li>
+							<li><a href="#">Institutional Buildings</a></li>
+							<li><a href="#">Specialty Structures</a></li>
+						</ul>
+					</li>
+					@if (User.Identity!.IsAuthenticated)
+					{
+						<li class="nav-item">
+							<a class="nav-link text-dark" asp-area="" asp-controller="Order" asp-action="MyOrders">My Orders</a>
+						</li>
+
+
+					}
+					@if (User.Identity.IsAuthenticated && User.IsInRole("Administrator"))
+					{
+						<li class="nav-item">
+							<a class="nav-link text-dark" asp-area="" asp-controller="Statistic" asp-action="Index">Statistics</a>
+							<ul class="submenu">
+								<li><a class="dropdown-item" href="/Client/" Index">Clients</a></li>
+								<li><a class="dropdown-item" href="/Order/" Index">Orders</a></li>
+								<li><a class="dropdown-item" href="/Statistic/" Index">Statistics</a></li>
+							</ul>
+
+
+						</li>
+					}
+
+
+					<li>
+
+					</li>
+					<li><a href="#">Projects</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Contact Us</a></li>
+				</ul>
+
+
+
+
+				<partial name="_LoginPartial" />
 			</div>
 		</nav>
 	</header>
-	<div class="container">
-		<main role="main" class="pb-3">
-			@RenderBody()
-		</main>
+	@RenderBody()
+	<div class="offcanvas offcanvas-start custom-offcanvas" id="demo">
+		<div class="offcanvas-header bg-pink">
+			<h1 class="offcanvas-title text-black">Menu</h1>
+			<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+		</div>
+		<div class="offcanvas-body">
+			<a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+			<a class="nav-link " asp-area="" asp-controller="Product" asp-action="Index">All Products</a>
+			<a class="nav-link" asp-area="" asp-controller="Contact" asp-action="Index">Contact</a>
+			@if ((this.User.Identity.IsAuthenticated))
+			{
+				<a class="nav-link " asp-area="" asp-controller="Order" asp-action="MyOrders">My Orders</a>
+				<a class="dropdown-item" href="/Statistic/" Index">Statistics</a>
+
+			}
+
+		</div>
 	</div>
 
-	<footer class="border-top footer text-muted">
+	@*<footer class="border-top footer text-muted">
 		<div class="container">
 			&copy; 2024 - BuildMaterials - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
 		</div>
-	</footer>
+	</footer>*@
 	<script src="~/lib/jquery/dist/jquery.min.js"></script>
 	<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 	<script src="~/js/site.js" asp-append-version="true"></script>
 	@await RenderSectionAsync("Scripts", required: false)
 </body>
+
 </html>
