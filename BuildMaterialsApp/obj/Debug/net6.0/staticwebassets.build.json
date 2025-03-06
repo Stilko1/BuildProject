@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zy4vZlcFXq5HOjNH8UQzymCJ4qRdazTKCUJY2tOVw8M=",
+  "Hash": "i3z52LeanIDWqxFRJHr8QT0RUG+cETe1H6Gf86RTzvw=",
   "Source": "BuildMaterialsApp",
   "BasePath": "_content/BuildMaterialsApp",
   "Mode": "Default",
@@ -1438,8 +1438,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "9tdtrgs68s",
-      "Integrity": "LWaG6d/W3XEjK0ZsG0L/a6l2omYJ/0AvuYM66egZoDg=",
+      "Fingerprint": "q2c41kmq8p",
+      "Integrity": "ImcLNci9Xkd+xhXN+HUW69xd3g9R0MZp0kNL0/7jiM4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\HomePage\\HomePage.css"
@@ -1480,8 +1480,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "qlsv789itd",
-      "Integrity": "csYHxaCugCX3raklkZHR/wtzPHddi8/vC6SVhHnprvg=",
+      "Fingerprint": "uzgr906bb9",
+      "Integrity": "yldQKZw2KxZTP6pghZNsRDimqu/cJHpEgjndK/7OBJc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -3323,51 +3323,6 @@
       ]
     },
     {
-      "Route": "css/HomePage/HomePage.9tdtrgs68s.css",
-      "AssetFile": "C:\\Users\\stili\\Documents\\StilkoVS\\BuildMaterialsApp\\BuildMaterialsApp\\wwwroot\\css\\HomePage\\HomePage.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "693"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"LWaG6d/W3XEjK0ZsG0L/a6l2omYJ/0AvuYM66egZoDg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 11:07:23 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "9tdtrgs68s"
-        },
-        {
-          "Name": "label",
-          "Value": "css/HomePage/HomePage.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-LWaG6d/W3XEjK0ZsG0L/a6l2omYJ/0AvuYM66egZoDg="
-        }
-      ]
-    },
-    {
       "Route": "css/HomePage/HomePage.css",
       "AssetFile": "C:\\Users\\stili\\Documents\\StilkoVS\\BuildMaterialsApp\\BuildMaterialsApp\\wwwroot\\css\\HomePage\\HomePage.css",
       "Selectors": [],
@@ -3378,7 +3333,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "693"
+          "Value": "5947"
         },
         {
           "Name": "Content-Type",
@@ -3386,11 +3341,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"LWaG6d/W3XEjK0ZsG0L/a6l2omYJ/0AvuYM66egZoDg=\""
+          "Value": "\"ImcLNci9Xkd+xhXN+HUW69xd3g9R0MZp0kNL0/7jiM4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 11:07:23 GMT"
+          "Value": "Thu, 06 Mar 2025 15:06:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3400,7 +3355,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-LWaG6d/W3XEjK0ZsG0L/a6l2omYJ/0AvuYM66egZoDg="
+          "Value": "sha256-ImcLNci9Xkd+xhXN+HUW69xd3g9R0MZp0kNL0/7jiM4="
+        }
+      ]
+    },
+    {
+      "Route": "css/HomePage/HomePage.q2c41kmq8p.css",
+      "AssetFile": "C:\\Users\\stili\\Documents\\StilkoVS\\BuildMaterialsApp\\BuildMaterialsApp\\wwwroot\\css\\HomePage\\HomePage.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5947"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ImcLNci9Xkd+xhXN+HUW69xd3g9R0MZp0kNL0/7jiM4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 15:06:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q2c41kmq8p"
+        },
+        {
+          "Name": "label",
+          "Value": "css/HomePage/HomePage.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ImcLNci9Xkd+xhXN+HUW69xd3g9R0MZp0kNL0/7jiM4="
         }
       ]
     },
@@ -3497,7 +3497,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1909"
+          "Value": "1872"
         },
         {
           "Name": "Content-Type",
@@ -3505,11 +3505,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"csYHxaCugCX3raklkZHR/wtzPHddi8/vC6SVhHnprvg=\""
+          "Value": "\"yldQKZw2KxZTP6pghZNsRDimqu/cJHpEgjndK/7OBJc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Mar 2025 08:33:29 GMT"
+          "Value": "Thu, 06 Mar 2025 12:17:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3519,12 +3519,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-csYHxaCugCX3raklkZHR/wtzPHddi8/vC6SVhHnprvg="
+          "Value": "sha256-yldQKZw2KxZTP6pghZNsRDimqu/cJHpEgjndK/7OBJc="
         }
       ]
     },
     {
-      "Route": "css/site.qlsv789itd.css",
+      "Route": "css/site.uzgr906bb9.css",
       "AssetFile": "C:\\Users\\stili\\Documents\\StilkoVS\\BuildMaterialsApp\\BuildMaterialsApp\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3534,7 +3534,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1909"
+          "Value": "1872"
         },
         {
           "Name": "Content-Type",
@@ -3542,11 +3542,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"csYHxaCugCX3raklkZHR/wtzPHddi8/vC6SVhHnprvg=\""
+          "Value": "\"yldQKZw2KxZTP6pghZNsRDimqu/cJHpEgjndK/7OBJc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Mar 2025 08:33:29 GMT"
+          "Value": "Thu, 06 Mar 2025 12:17:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3556,7 +3556,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qlsv789itd"
+          "Value": "uzgr906bb9"
         },
         {
           "Name": "label",
@@ -3564,7 +3564,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-csYHxaCugCX3raklkZHR/wtzPHddi8/vC6SVhHnprvg="
+          "Value": "sha256-yldQKZw2KxZTP6pghZNsRDimqu/cJHpEgjndK/7OBJc="
         }
       ]
     },

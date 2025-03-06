@@ -4,7 +4,7 @@ html {
 header {
     margin-left: auto;
     margin-right: auto;
-    background-color: orangered;
+    background-color: #fb770f;
 }
 
 @media (min-width: 768px) {
@@ -20,7 +20,9 @@ html {
 
 body {
     margin-bottom: 60px;
+    background-color:white;
 }
+
 
 .menu {
     list-style: none;
@@ -114,4 +116,7 @@ header > nav {
 .navbar-brand img {
     width: 200px;
     height: 30px;
+
+    
 }
+
