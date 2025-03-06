@@ -1,10 +1,19 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using BuildMaterials.Core.Contracts;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace BuildMaterialsApp.Controllers
 {
     public class ShoppingController : Controller
     {
+        private readonly IOrderService _orderService;
+        private readonly IProductService _productService;
+        public ShoppingController(IOrderService orderService, IProductService productService)
+        {
+            _orderService = orderService;
+            _productService = productService;
+        }
         // GET: ShoppingController
         public ActionResult Index()
         {

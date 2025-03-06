@@ -1,6 +1,11 @@
 html {
     font-size: 14px;
 }
+header {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: orangered;
+}
 
 @media (min-width: 768px) {
     html {
@@ -23,6 +28,7 @@ body {
     background: #333;
     width: 200px;
     display: none;
+    background-color:orangered;
 }
 
     .menu li {
@@ -40,6 +46,11 @@ body {
         .menu > li > a:hover {
             background: #555;
         }
+
+
+.menu li:hover {
+    background: #555;
+}
 
 .submenu {
     display: none;
@@ -96,4 +107,11 @@ body {
     .contrainer-card-item {
         width:20%
     }
-    
+
+header > nav {
+    margin-bottom: 0 !important;
+}
+.navbar-brand img {
+    width: 200px;
+    height: 30px;
+}

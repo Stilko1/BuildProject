@@ -1,191 +1,234 @@
-﻿* {
-    box-sizing: border-box;
+﻿header {
+    margin-left: auto;
+    margin-right: auto;
 }
 
-html,
-body {
+.container {
+    width: 1000px;
+    margin: auto;
+    transition: 0.5s;
+}
+
+div.container.fluid {
     width: 100%;
-    height: 100%;
-    margin: 0;
-    background-color: #7EC855;
-    font-family: 'Roboto', sans-serif;
+    height: 100vh;
 }
 
-.shopping-cart {
-    width: 750px;
-    height: 423px;
-    margin: 80px auto;
-    background: #FFFFFF;
-    box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
-    border-radius: 6px;
+
+
+header .shopping span {
+    background: red;
+    border-radius: 50%;
     display: flex;
-    flex-direction: column;
-}
-.title {
-    height: 60px;
-    border-bottom: 1px solid #E1E8EE;
-    padding: 20px 30px;
-    color: #5E6977;
-    font-size: 18px;
-    font-weight: 400;
-}
-
-.item {
-    padding: 20px 30px;
-    height: 120px;
-    display: flex;
-}
-
-    .item:nth-child(3) {
-        border-top: 1px solid #E1E8EE;
-        border-bottom: 1px solid #E1E8EE;
-    }
-.buttons {
-    position: relative;
-    padding-top: 30px;
-    margin-right: 60px;
-}
-
-.delete-btn,
-.like-btn {
-    display: inline-block;
-    Cursor: pointer;
-}
-
-.delete-btn {
-    width: 18px;
-    height: 17px;
-    background: url(&amp;amp;quot;delete-icn.svg&amp;amp;quot;) no-repeat center;
-}
-
-.like-btn {
+    justify-content: center;
+    align-items: center;
+    color: #fff;
     position: absolute;
-    top: 9px;
-    left: 15px;
-    background: url('twitter-heart.png');
-    width: 60px;
-    height: 60px;
-    background-size: 2900%;
-    background-repeat: no-repeat;
-}
-.is-active {
-    animation-name: animate;
-    animation-duration: .8s;
-    animation-iteration-count: 1;
-    animation-timing-function: steps(28);
-    animation-fill-mode: forwards;
+    top: 111px;
+    left: 100%;
+    padding: 1px 5px;
 }
 
-@keyframes animate {
-    0% {
-        background-position: left;
+div.shopping {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+    div.shopping > button {
+        width: 400px;
+        height: 40px;
     }
 
-    50% {
-        background-position: right;
+    div.shopping > img {
+        width: 40px;
+        height: 40px;
     }
 
-    100% {
-        background-position: right;
-    }
-}
-.image {
-    margin-right: 50px;
-}
-
-Let’s add some basic style to product name and description.
-.description {
-    padding-top: 10px;
-    margin-right: 60px;
-    width: 115px;
-}
-
-.description span {
-    display: block;
-    font-size: 14px;
-    color: #43484D;
-    font-weight: 400;
-}
-
-    .description span:first-child {
-        margin-bottom: 5px;
-    }
-
-    .description span:last-child {
-        font-weight: 300;
-        margin-top: 8px;
-        color: #86939E;
-    }
-.quantity {
-    padding-top: 20px;
-    margin-right: 60px;
-}
-
-    .quantity input {
-        -webkit-appearance: none;
-        border: none;
-        text-align: center;
-        width: 32px;
-        font-size: 16px;
-        color: #43484D;
-        font-weight: 300;
-    }
-
-button[class*=btn] {
+a.button > img {
     width: 30px;
     height: 30px;
-    background-color: #E1E8EE;
-    border-radius: 6px;
-    border: none;
-    cursor: pointer;
 }
 
-.minus-btn img {
-    margin-bottom: 3px;
+a.imagebuttonShop > img {
+    width: 30px;
+    height: 30px;
+    margin-left: 129px;
 }
 
-.plus-btn img {
-    margin-top: 2px;
+span.quantity {
+    width: 20px;
+    height: 20px;
+    margin-left: auto;
+    margin-top: -110px;
 }
 
-button:focus,
-input:focus {
-    outline: 0;
+div.shopping.align-content-left {
+    margin-left: 850px;
 }
-.total-price {
-    width: 83px;
-    padding-top: 27px;
-    text-align: center;
-    font-size: 16px;
-    color: #43484D;
-    font-weight: 300;
+
+
+
+.list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+    margin-top: 50px;
 }
-@media (max-width: 800px) {
-    .shopping-cart {
-        width: 100%;
-        height: auto;
-        overflow: hidden;
-    }
 
-    .item {
-        height: auto;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .image img {
-        width: 50%;
-    }
-
-    .image,
-    .quantity,
-    .description {
-        width: 100%;
+    .list .item {
         text-align: center;
-        margin: 6px 0;
+        background-color: #DCE0E1;
+        padding: 20px;
+        box-shadow: 0 50px 50px #757676;
+        letter-spacing: 1px;
     }
 
-    .buttons {
-        margin-right: 20px;
-    }
+        .list .item img {
+            width: 90%;
+            height: 430px;
+            object-fit: cover;
+        }
+
+        .list .item .title {
+            font-weight: 600;
+        }
+
+        .list .item .price {
+            margin: 10px;
+        }
+
+        .list .item button {
+            background-color: #1C1F25;
+            color: #fff;
+            width: 100%;
+            padding: 10px;
+        }
+
+.cardShoppingCard {
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 500px;
+    background-color: #453E3B;
+    height: 100vh;
+    transition: 0.5s;
+    z-index: 2;
 }
+
+.active .cardShoppingCard {
+    left: calc(100% - 500px);
+}
+
+.active .container {
+    transform: translateX(-200px);
+}
+
+.cardShoppingCard h1 {
+    color: #E8BC0E;
+    font-weight: 100;
+    margin: 0;
+    padding: 0 20px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.cardShoppingCard .checkOut {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+    .cardShoppingCard .checkOut div {
+        background-color: #E8BC0E;
+        width: 100%;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+        .cardShoppingCard .checkOut div:nth-child(2) {
+            background-color: #1C1F25;
+            color: #fff;
+        }
+
+.listCard li {
+    display: grid;
+    grid-template-columns: 100px repeat(3, 1fr);
+    color: #fff;
+    row-gap: 10px;
+}
+
+    .listCard li div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .listCard li img {
+        width: 90%;
+    }
+
+    .listCard li button {
+        background-color: #fff5;
+        border: none;
+    }
+
+.listCard .count {
+    margin: 0 10px;
+}
+
+#cart-container table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+    #cart-container table thead {
+        font-weight: 700;
+    }
+
+        #cart-container table thead td {
+            background-color:#E8BC0E;
+            color:red;
+            border: none;
+            padding:6px 0;
+        }
+
+
+    #cart-container table td {
+        border: 1px solid #ff0000;
+      
+        text-align: center;
+    }
+
+        #cart-container table td:nth-child(1) {
+            width: 100%;
+        }
+        #cart-container table td:nth-child(2),
+        #cart-container table td:nth-child(3) {
+            width: 200%;
+        }
+
+        #cart-container table td:nth-child(4),
+        #cart-container table td:nth-child(5),
+        #cart-container table td:nth-child(6) {
+            width: 170%;
+        }
+    #cart-container table tbody img {
+        width: 100px;
+        height: 100px;
+        object-fit:cover;
+    }
+  
+

@@ -8,6 +8,7 @@ using BuildMaterialsApp.Models.Brand;
 using BuildMaterialsApp.Models.Category;
 using BuildMaterials.Models.Product;
 using BuildMaterialsApp.Models.Product;
+using Microsoft.EntityFrameworkCore;
 
 namespace BuildMaterials.Controllers
 {
@@ -41,9 +42,11 @@ namespace BuildMaterials.Controllers
                 Quantity = product.Quantity,
                 Price = product.Price,
                 Discount = product.Discount
-
             }).ToList();
+
+           
             return this.View(products);
+
 
         }
 

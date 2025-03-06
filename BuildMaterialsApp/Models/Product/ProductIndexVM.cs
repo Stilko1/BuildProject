@@ -9,7 +9,9 @@ namespace BuildMaterialsApp.Models.Product
         public int Id { get; set; }
         [Display(Name = "Product Name")]
         public string ProductName { get; set; } = null!;
+        public string ProductId { get; set; } = null!;
 
+        public int QuantityInStock { get; set; }
         public int BrandId { get; set; }
         [Display(Name = "Brand")]
         public string BrandName { get; set; } = null!;
@@ -27,5 +29,7 @@ namespace BuildMaterialsApp.Models.Product
         public decimal Price { get; set; }
         [Display(Name = "Discount")]
         public decimal Discount { get; set; }
+
+        public decimal TotalPrice { get; set; }
     }
 }

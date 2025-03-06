@@ -1,10 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace BuildMaterialsApp.Models.Order
+namespace BuildMaterialsApp.Models.ShoppingCard
 {
-    public class OrderIndexVM
+    public class ICollecton
     {
-        public int Id { get; set; } 
+        public int Id { get; set; }
         public int ProductId { get; set; }
         public string ProductName { get; set; }
         public string Product { get; set; } = null!;
@@ -20,6 +20,8 @@ namespace BuildMaterialsApp.Models.Order
         public decimal Discount { get; set; }
         public decimal TotalPrice { get; set; }
 
-    }
-}
 
+    }
+
+
+}

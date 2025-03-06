@@ -1,0 +1,30 @@
+﻿
+body {
+    font-family: Arial, sans-serif;
+ 
+
+}
+.background {
+    background: url('https://img.freepik.com/premium-photo/home-renovation-construction-diy-abstract-background-with-tools-wooden-board-closeup_1028938-73319.jpg');
+    height: 50vh;
+    width:100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+   
+}
+.shadow {
+    background-color: black;
+    height: 50vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    z-index: 2;
+    position: absolute;
+    top: 58px;
+    left: 0;
+    opacity: 35%;
+}
