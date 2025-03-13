@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Clear Cart";
+}
+
+<p>Are you sure you want to clear your cart?</p>
+
+<form asp-action="ClearCart" method="post">
+    <button type="submit" class="btn btn-danger">Yes</button>
+    <a asp-action="Index" class="btn btn-secondary">No</a>
+</form>

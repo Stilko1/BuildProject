@@ -1,0 +1,13 @@
+﻿@model int
+
+@{
+    ViewData["Title"] = "Remove From Cart";
+}
+
+<p>Are you sure you want to remove that item?</p>
+
+<form asp-action="RemoveFromCart" method="post">
+    <input type="hidden" name="productId" value="@Model" />
+    <button type="submit" class="btn btn-danger">Yes</button>
+    <a asp-action="Index" class="btn btn-secondary">No</a>
+</form>

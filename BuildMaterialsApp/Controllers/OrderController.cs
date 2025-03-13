@@ -6,6 +6,7 @@ using System.Security.Claims;
 using BuildMaterials.Core.Contracts;
 using BuildMaterials.Infrastructure.Data.Domain;
 using BuildMaterialsApp.Models.Order;
+using Microsoft.AspNetCore.Cors.Infrastructure;
 
 
 namespace BuildMaterials.Controllers
@@ -13,13 +14,15 @@ namespace BuildMaterials.Controllers
     [Authorize]
     public class OrderController : Controller
     {
-
-        private readonly IOrderService _orderService;
         private readonly IProductService _productService;
-        public OrderController(IOrderService orderService, IProductService productService)
+        private readonly IOrderService _orderService;
+        private readonly IShoppingCartService _cartService;
+
+        public OrderController(IProductService productService, IOrderService orderService, IShoppingCartService cartService)
         {
-            _orderService = orderService;
             _productService = productService;
+            _orderService = orderService;
+            _cartService = cartService;
         }
         // GET: OrderController
         //[Authorize(Roles = "Administrator")]
@@ -54,10 +57,12 @@ namespace BuildMaterials.Controllers
         public ActionResult Create(int id)
         {
             Product product = _productService.GetProductById(id);
+
             if (product == null)
             {
                 return NotFound();
             }
+
             OrderCreateVM order = new OrderCreateVM()
             {
                 ProductId = product.Id,
@@ -66,9 +71,8 @@ namespace BuildMaterials.Controllers
                 Price = product.Price,
                 Discount = product.Discount,
                 Picture = product.Picture,
-
-
             };
+
             return View(order);
         }
 
@@ -77,41 +81,67 @@ namespace BuildMaterials.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create(OrderCreateVM bindingModel)
         {
-            string currentUserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            var product = _productService.GetProductById(bindingModel.ProductId);
+            string currentUserId = this.User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            var product = this._productService.GetProductById(bindingModel.ProductId);
 
             if (currentUserId == null || product == null || product.Quantity < bindingModel.Quantity || product.Quantity == 0)
             {
                 return RedirectToAction("Denied", "Order");
             }
+
             if (ModelState.IsValid)
             {
-                _orderService.Create(bindingModel.ProductId, currentUserId, bindingModel.Quantity);
-
+                _cartService.AddToCart(bindingModel.ProductId, currentUserId, bindingModel.Quantity);
             }
-            return RedirectToAction("Index", "Product");
+
+            return this.RedirectToAction("Index", "ShoppingCart");
         }
 
-        // GET: OrderController/Edit/5
-        public ActionResult Edit(int id)
+        // GET: OrderController/Edit
+        public ActionResult Edit(int productId)
         {
-            return View();
+            string currentUserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var cartItem = _cartService.GetCartItems(currentUserId).FirstOrDefault(x => x.ProductId == productId);
+
+            if (cartItem == null)
+            {
+                return NotFound();
+            }
+
+            var product = _productService.GetProductById(productId);
+
+            var model = new OrderCreateVM
+            {
+                ProductId = product.Id,
+                ProductName = product.ProductName,
+                QuantityInStock = product.Quantity,
+                Picture = product.Picture,
+                Quantity = cartItem.Quantity,
+                Price = product.Price,
+                Discount = product.Discount,
+                TotalPrice = cartItem.TotalPrice
+            };
+
+            return View(model);
         }
 
-        // POST: OrderController/Edit/5
+        // POST: OrderController/Edit
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public ActionResult Edit(OrderCreateVM model)
         {
-            try
+            if (!ModelState.IsValid)
             {
-                return RedirectToAction(nameof(Index));
+                return View(model);
             }
-            catch
-            {
-                return View();
-            }
+
+            string currentUserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            _cartService.UpdateCartItem(model.ProductId, currentUserId, model.Quantity);
+
+            return RedirectToAction("Index", "ShoppingCart");
         }
+
 
         // GET: OrderController/Delete/5
         public ActionResult Delete(int id)
