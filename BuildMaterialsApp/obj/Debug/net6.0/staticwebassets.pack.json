@@ -21,12 +21,28 @@
       "PackagePath": "staticwebassets\\Buildd22.png"
     },
     {
+      "Id": "C:\\Users\\stili\\Documents\\StilkoVS\\BuildMaterialsApp\\BuildMaterialsApp\\wwwroot\\builder.avif",
+      "PackagePath": "staticwebassets\\builder.avif"
+    },
+    {
+      "Id": "C:\\Users\\stili\\Documents\\StilkoVS\\BuildMaterialsApp\\BuildMaterialsApp\\wwwroot\\builder.webp",
+      "PackagePath": "staticwebassets\\builder.webp"
+    },
+    {
+      "Id": "C:\\Users\\stili\\Documents\\StilkoVS\\BuildMaterialsApp\\BuildMaterialsApp\\wwwroot\\construction-worker-holding-ladder_1308-98720.avif",
+      "PackagePath": "staticwebassets\\construction-worker-holding-ladder_1308-98720.avif"
+    },
+    {
       "Id": "C:\\Users\\stili\\Documents\\StilkoVS\\BuildMaterialsApp\\BuildMaterialsApp\\wwwroot\\css\\Contact\\StyleSheet.css",
       "PackagePath": "staticwebassets\\css\\Contact\\StyleSheet.css"
     },
     {
       "Id": "C:\\Users\\stili\\Documents\\StilkoVS\\BuildMaterialsApp\\BuildMaterialsApp\\wwwroot\\css\\HomePage\\HomePage.css",
       "PackagePath": "staticwebassets\\css\\HomePage\\HomePage.css"
+    },
+    {
+      "Id": "C:\\Users\\stili\\Documents\\StilkoVS\\BuildMaterialsApp\\BuildMaterialsApp\\wwwroot\\css\\ProductCart\\ProductCart.css",
+      "PackagePath": "staticwebassets\\css\\ProductCart\\ProductCart.css"
     },
     {
       "Id": "C:\\Users\\stili\\Documents\\StilkoVS\\BuildMaterialsApp\\BuildMaterialsApp\\wwwroot\\css\\ShoppingCart\\ShoppingCart.css",
@@ -39,6 +55,18 @@
     {
       "Id": "C:\\Users\\stili\\Documents\\StilkoVS\\BuildMaterialsApp\\BuildMaterialsApp\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\stili\\Documents\\StilkoVS\\BuildMaterialsApp\\BuildMaterialsApp\\wwwroot\\image1.jpg",
+      "PackagePath": "staticwebassets\\image1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\stili\\Documents\\StilkoVS\\BuildMaterialsApp\\BuildMaterialsApp\\wwwroot\\image2.jpg",
+      "PackagePath": "staticwebassets\\image2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\stili\\Documents\\StilkoVS\\BuildMaterialsApp\\BuildMaterialsApp\\wwwroot\\image3.jpg",
+      "PackagePath": "staticwebassets\\image3.jpg"
     },
     {
       "Id": "C:\\Users\\stili\\Documents\\StilkoVS\\BuildMaterialsApp\\BuildMaterialsApp\\wwwroot\\js\\ShoppingCart.js",
