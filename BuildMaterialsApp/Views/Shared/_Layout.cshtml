@@ -9,19 +9,20 @@
 	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
 	<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 	<link rel="stylesheet" href="~/BuildMaterialsApp.styles.css" asp-append-version="true" />
-	<link rel="stylesheet" href="~/css/ShoppingCart/ShoppingCart.css" />
-	@await RenderSectionAsync("Styles",required:false)
+
+	@await RenderSectionAsync("Styles", required: false)
 
 	<title>Building Categories Menu</title>
+	<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateInit"></script>
 
 	<script>
-		 function toggleMenu() {
-			var menu = document.getElementById("nav-menu");
-			if (menu.style.display === "none" || menu.style.display === "") {
-				menu.style.display = "block";
-			} else {
-				menu.style.display = "none";
-			}
+		function toggleMenu() {
+		var menu = document.getElementById("nav-menu");
+		if (menu.style.display === "none" || menu.style.display === "") {
+		menu.style.display = "block";
+		} else {
+		menu.style.display = "none";
+		}
 
 		}
 	</script>
@@ -37,16 +38,33 @@
 					</button>
 					<a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/Buildd22.png"></a>
 
-					<div class="Square">
+					<!-- Google Translate Button -->
+					<button class="translate-btn" onclick="translatePage()">Translate</button>
 
-					
-				<div class="shopping align-content-left">
-					
-						<a class="imagebuttonShop" asp-area="" asp-controller="ShoppingCart" asp-action="Index"><img src="https://icons.veryicon.com/png/o/miscellaneous/jd-app-icon/shopping-cart-296.png">
-							<span class="quantity">0</span></a>
-						</div>
+					<div id="google_translate_element"></div>
 
-				
+					<script>
+						function translatePage() {
+							var element = document.createElement("script");
+							element.type = "text/javascript";
+							element.src = "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
+							document.body.appendChild(element);
+						}
+
+						function googleTranslateElementInit() {
+							new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+						}
+					</script>
+
+					<div class="shopping align-content-left">
+
+						<a class="imagebuttonShop" asp-area="" asp-controller="ShoppingCart" asp-action="Index">
+							<img src="https://icons.veryicon.com/png/o/miscellaneous/jd-app-icon/shopping-cart-296.png">
+							<span class="quantity">0</span>
+						</a>
+					</div>
+
+
 				</div>
 				<ul class="menu" id="nav-menu">
 					<li class="nav-item">
@@ -91,52 +109,59 @@
 
 
 				</ul>
-				</div>
+			</div>
 
-				
-					
-				<partial name="_LoginPartial" />
-				
-				
+
+
+			<partial name="_LoginPartial" />
+
+
 			</div>
 
 
 
 		</nav>
 	</header>
-	
 
 
-		@RenderBody()
-		<div class="offcanvas offcanvas-start custom-offcanvas" id="demo">
-			<div class="offcanvas-header bg-pink">
-				<h1 class="offcanvas-title text-black">Menu</h1>
-				<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
-			</div>
-			<div class="offcanvas-body">
-				<a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-				<a class="nav-link " asp-area="" asp-controller="Product" asp-action="Index">All Products</a>
-				<a class="nav-link" asp-area="" asp-controller="Contact" asp-action="Index">Contact</a>
-				@if ((this.User.Identity.IsAuthenticated))
-				{
-					<a class="nav-link " asp-area="" asp-controller="Order" asp-action="MyOrders">My Orders</a>
-					<a class="dropdown-item" href="/Statistic/" Index">Statistics</a>
 
-				}
-
-			</div>
+	@RenderBody()
+	<div class="offcanvas offcanvas-start custom-offcanvas" id="demo">
+		<div class="offcanvas-header bg-pink">
+			<h1 class="offcanvas-title text-black">Menu</h1>
+			<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
 		</div>
+		<div class="offcanvas-body">
+			<a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+			<a class="nav-link " asp-area="" asp-controller="Product" asp-action="Index">All Products</a>
+			<a class="nav-link" asp-area="" asp-controller="Contact" asp-action="Index">Contact</a>
 
-		@*<footer class="border-top footer text-muted">
+
+			@if ((this.User.Identity.IsAuthenticated))
+			{
+
+				<a class="nav-link " asp-area="" asp-controller="Order" asp-action="MyOrders">My Orders</a>
+			}
+			@if (User.Identity.IsAuthenticated && User.IsInRole("Administrator"))
+			{
+				<a class="dropdown-item" href="/Client/" Index">Clients</a>
+				<a class="dropdown-item" href="/Order/" Index">Orders</a>
+				<a class="dropdown-item" href="/Statistic/" Index">Statistics</a>
+			}
+
+		</div>
+	</div>
+
+	@*<footer class="border-top footer text-muted">
 		<div class="container">
 			&copy; 2024 - BuildMaterials - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
 		</div>
 	</footer>*@
-		<script src="~/lib/jquery/dist/jquery.min.js"></script>
-		<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-		<script src="~/js/site.js" asp-append-version="true"></script>
-		<script src="~/js/ShoppingCart.js"></script>
-		@await RenderSectionAsync("Scripts", required: false)
+	<script src="~/lib/jquery/dist/jquery.min.js"></script>
+	<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="~/js/site.js" asp-append-version="true"></script>
+	<script src="~/js/ShoppingCart.js"></script>
+	@await RenderSectionAsync("Scripts", required: false)
 </body>
 
 </html>

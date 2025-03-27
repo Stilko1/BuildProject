@@ -67,7 +67,12 @@ span.quantity {
 }
 
 div.shopping.align-content-left {
-    margin-left: 850px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: end;
+   
+    margin-left: 140%;
 }
 
 

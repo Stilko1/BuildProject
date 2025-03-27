@@ -2,10 +2,10 @@
 
 @{
 
-	ViewData["Title"] = "Index";
+	ViewData["Title"] = "All products";
 
 }
-<h1>Index</h1>
+<h1>All Products</h1>
 
 @*This is THE CLIENT VISION OF THE WEB APPLICATION*@
 
@@ -126,17 +126,18 @@
 }
 @if (User.Identity.IsAuthenticated && User.IsInRole("Client"))
 {
-	<div class="card">
-		<div class=" container-card">
+	<div class="buttonCard">
+		<div class="card-containerRadius">
 
 
 			@foreach (var item in Model)
 			{
 
-				<div class="card container-card-item">
-					<div class="product-border">
+				
+					<div class="container-cardHome">
+					<div class="badge">New</div>
 						<div class="product-img-center">
-							<img class="product-img" src="@Html.DisplayFor(modelItem => item.Picture)" alt="Image" width="299" />
+							<img class="product-img" src="@Html.DisplayFor(modelItem => item.Picture)" alt="Image"  />
 							<h1>@Html.DisplayFor(modelItem => item.ProductName)</h1>
 							<p>PRICE: @Html.DisplayFor(modelItem => item.Price) лв.</p>
 							<span> @Html.DisplayFor(modelItem => item.Discount) % </span>
@@ -154,7 +155,7 @@
 							}
 						</div>
 					</div>
-				</div>
+				
 
 
 
@@ -168,6 +169,7 @@
 @section Scripts {
 	@{
 		await Html.RenderPartialAsync("_ValidationScriptsPartial");
+		<link rel="stylesheet" href="~/css/site.css" />
 	}
 }
 
