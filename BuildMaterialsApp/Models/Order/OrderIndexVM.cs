@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using AspNetCoreGeneratedDocument;
+using System.ComponentModel.DataAnnotations;
 
 namespace BuildMaterialsApp.Models.Order
 {
@@ -19,6 +20,7 @@ namespace BuildMaterialsApp.Models.Order
         public decimal Price { get; set; }
         public decimal Discount { get; set; }
         public decimal TotalPrice { get; set; }
+        Views_Order_MyOrders MyOrders { get; set; }
 
     }
 }

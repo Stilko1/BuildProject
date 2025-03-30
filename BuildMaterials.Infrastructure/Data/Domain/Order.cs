@@ -15,6 +15,10 @@ namespace BuildMaterials.Infrastructure.Data.Domain
         {
             return Quantity * (Price - Price * Discount / 100);
         }
+        public decimal GetTotalPrice(int quantity, decimal price, decimal discount)
+        {
+            return quantity * (price - price * discount / 100);
+        }
 
         public Order(DateTime orderdate,
             int productId,

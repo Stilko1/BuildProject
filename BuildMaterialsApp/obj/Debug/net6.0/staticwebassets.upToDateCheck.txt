@@ -6,7 +6,6 @@ wwwroot\BuildMaterial (1).png
 wwwroot\BuildMaterial (2).png
 wwwroot\construction-worker-holding-ladder_1308-98720.avif
 wwwroot\css\Contact\StyleSheet.css
-wwwroot\css\HomePage\HomePage.css
 wwwroot\css\ProductCart\ProductCart.css
 wwwroot\css\ShoppingCart\ShoppingCart.css
 wwwroot\css\site.css

@@ -41,7 +41,7 @@ namespace BuildMaterials.Controllers
                      Discount = x.Discount,
                      Picture = x.Product.Picture,
                      User = x.User.UserName,
-                      TotalPrice = x.TotalPrice
+                     TotalPrice = x.TotalPrice
                  }).ToList();
             return View(orders);
 
@@ -71,6 +71,7 @@ namespace BuildMaterials.Controllers
                 Price = product.Price,
                 Discount = product.Discount,
                 Picture = product.Picture,
+                TotalPrice = product.Price
             };
 
             return View(order);
@@ -183,6 +184,7 @@ namespace BuildMaterials.Controllers
                     Discount = x.Discount,
                     Picture = x.Product.Picture,
                     User = x.User.UserName,
+                    TotalPrice = x.TotalPrice
                 }).ToList();
             return View(orders);
         }

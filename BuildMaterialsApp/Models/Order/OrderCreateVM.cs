@@ -18,6 +18,7 @@ namespace BuildMaterialsApp.Models.Order
         public decimal Price { get; set; }
         public decimal Discount { get; set; }
         public decimal TotalPrice { get; set; }
+        public decimal MyOrders { get; set; }
 
     }
 }

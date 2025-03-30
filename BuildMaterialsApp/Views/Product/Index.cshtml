@@ -5,7 +5,10 @@
 	ViewData["Title"] = "All products";
 
 }
-<h1>All Products</h1>
+<div class="shrift1">
+	<h1>✨ All products ✨</h1>
+</div>
+
 
 @*This is THE CLIENT VISION OF THE WEB APPLICATION*@
 
@@ -133,29 +136,29 @@
 			@foreach (var item in Model)
 			{
 
-				
-					<div class="container-cardHome">
-					<div class="badge">New</div>
-						<div class="product-img-center">
-							<img class="product-img" src="@Html.DisplayFor(modelItem => item.Picture)" alt="Image"  />
-							<h1>@Html.DisplayFor(modelItem => item.ProductName)</h1>
-							<p>PRICE: @Html.DisplayFor(modelItem => item.Price) лв.</p>
-							<span> @Html.DisplayFor(modelItem => item.Discount) % </span>
-							<a asp-action="Details" asp-route-id="@item.Id" class="btn btn-success">Details</a>
 
-							@if ((this.User.Identity.IsAuthenticated))
-							{
-								<a asp-action="Create" asp-controller="Order" asp-route-id="@item.Id" class="btn btn-warning">Add to card</a>
+				<div class="container-cardHome">
 
-							}
-							@if ((this.User.Identity.IsAuthenticated) && (this.User.IsInRole("Administrator")))
-							{
-								<a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning">Edit</a>
-								<a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
-							}
-						</div>
+					<div class="product-img-center">
+						<img class="product-img" src="@Html.DisplayFor(modelItem => item.Picture)" alt="Image" />
+						<h1>@Html.DisplayFor(modelItem => item.ProductName)</h1>
+						<p>PRICE: @Html.DisplayFor(modelItem => item.Price) лв.</p>
+						<span> @Html.DisplayFor(modelItem => item.Discount) % </span>
+						<a asp-action="Details" asp-route-id="@item.Id" class="btn btn-success">Details</a>
+
+						@if ((this.User.Identity.IsAuthenticated))
+						{
+							<a asp-action="Create" asp-controller="Order" asp-route-id="@item.Id" class="btn btn-warning">Add to card</a>
+
+						}
+						@if ((this.User.Identity.IsAuthenticated) && (this.User.IsInRole("Administrator")))
+						{
+							<a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning">Edit</a>
+							<a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+						}
 					</div>
-				
+				</div>
+
 
 
 

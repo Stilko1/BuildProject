@@ -37,10 +37,6 @@
       "PackagePath": "staticwebassets\\css\\Contact\\StyleSheet.css"
     },
     {
-      "Id": "C:\\Users\\stili\\Documents\\StilkoVS\\BuildMaterialsApp\\BuildMaterialsApp\\wwwroot\\css\\HomePage\\HomePage.css",
-      "PackagePath": "staticwebassets\\css\\HomePage\\HomePage.css"
-    },
-    {
       "Id": "C:\\Users\\stili\\Documents\\StilkoVS\\BuildMaterialsApp\\BuildMaterialsApp\\wwwroot\\css\\ProductCart\\ProductCart.css",
       "PackagePath": "staticwebassets\\css\\ProductCart\\ProductCart.css"
     },

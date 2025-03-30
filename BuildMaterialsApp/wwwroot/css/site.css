@@ -1,12 +1,15 @@
 html {
     font-size: 14px;
-    
 }
 
 header {
     margin-left: auto;
     margin-right: auto;
     background-color: #fb770f;
+}
+
+.offcanvas-body a {
+    color: #fb770f;
 }
 
 @media (min-width: 768px) {
@@ -22,7 +25,7 @@ html {
 
 body {
     margin-bottom: 60px;
-    background-color: white;
+    background-color: orange;
 }
 
 
@@ -128,7 +131,7 @@ background img {
     border-right: 5px solid #ff9800;
     border-block-end: 5px solid #ff9800;
     border-radius: 4px;
-    height: vh;
+    height: 10vh;
 }
 
 .imagebuttonBuilder {
@@ -159,7 +162,7 @@ background img {
 }
 
 div.container.fluid {
-    width: 100%;
+    width: 10%;
     height: 100vh;
 }
 
@@ -216,11 +219,26 @@ span.quantity {
 }
 
 div.shopping.align-content-left {
+    width: 50vw;
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    margin-left: 0%;
+}
+
+div.d-flex.align-content-left {
     width: 100%;
     display: flex;
     justify-content: right;
     align-items: end;
-    margin-left: 140%;
+    margin-left: 0%;
+}
+
+navbar > .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
 
@@ -387,7 +405,7 @@ div.shopping.align-content-left {
 
 
 
-    /* //////// THIS IS FOR THE HOME PAGE ////////*/
+/* //////// THIS IS FOR THE HOME PAGE ////////*/
 body {
     font-family: Arial, sans-serif;
     background-color: orange;
@@ -455,30 +473,32 @@ body {
     display: block;
     transition: 0.3s ease-in-out;
 }
+
 .product-img-center img {
     width: auto;
-    height: 450px;
+    height: 300px;
 }
-    .container-cardHome:hover {
-        transform: scale(1.05);
-        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-    }
 
-    .container-cardHome img {
-        width: 100%;
-        border-radius: 10px;
-    }
+.container-cardHome:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
 
-    .container-cardHome h2 {
-        font-size: 22px;
-        margin: 15px 0;
-    }
+.container-cardHome img {
+    width: 100%;
+    border-radius: 10px;
+}
 
-    .container-cardHome p {
-        font-size: 14px;
-        color: #666;
-        margin-bottom: 10px;
-    }
+.container-cardHome h2 {
+    font-size: 22px;
+    margin: 15px 0;
+}
+
+.container-cardHome p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
 
 .price {
     font-size: 20px;
@@ -695,8 +715,7 @@ body {
 }
 
 img {
-    width: 100%;
-    border-radius: 10px;
+    width: 20%;
 }
 
 .prev, .next {
@@ -735,7 +754,7 @@ img {
 
 .picture-container {
     display: flex;
-    margin-left: 100px;
+    margin-left: 0px;
     flex-wrap: wrap;
     gap: 2.5em;
     margin-top: 120px;
@@ -744,27 +763,55 @@ img {
     padding: 0 2em 0 2em;
     width: 500px;
     height: 510px;
+    text-align: center;
 }
 
+.shrift1 {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px #000000;
+}
+.text1 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    text-decoration: underline;
+}
 .paragraph {
-    margin-left: 700px;
+    margin-left: 500px;
     margin-top: -500px;
-    margin-right: 400px;
-    margin-bottom: 200px;
+    margin-right: 200px;
+    margin-bottom: 10px;
     font-size: 22px;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    position: absolute;
+    
+}
+.photo {
+    position: absolute;
+    margin-left: 140px;
+    margin-top: -500px;
+    margin-right: 600px;
+    margin-bottom: 900px;
+    font-size: 99px;
     color: white;
     text-align: left;
     text-shadow: 2px 2px 4px #000000;
 }
+.paragraph h1 {
+    font-size: 40px;
+    color: white;
+    text-align: right;
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px #000000;
+}
 
-    .paragraph h1 {
-        font-size: 40px;
-        color: white;
-        text-align: center;
-        text-decoration: underline;
-        text-shadow: 2px 2px 4px #000000;
-    }
-    /*/////// Shrifta na nqkoi tekstove ////////*/
+/*/////// Shrifta na nqkoi tekstove ////////*/
 
 .h1HomePage {
     font-size: 40px;
@@ -773,6 +820,7 @@ img {
     text-decoration: underline;
     text-shadow: 2px 2px 4px #000000;
 }
+
 .badge {
     position: absolute;
     top: 10px;
@@ -786,7 +834,56 @@ img {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     transition: 0.7s ease-in-out;
 }
+
 .container-cardHome2.badge {
     transform: scale(4.2);
-   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.div.footer-section {
+    background-color: #fb770f;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+img1 {
+    width: 1px;
+    height: 1000px;
+}
+
+.footer {
+    background-color: #fb770f;
+    color: white;
+    text-align: left;
+    padding: 1px;
+    position: absolute;
+    left: 0;
+    bottom: -600px;
+    width: 100%;
+    z-index: 100;
+}
+
+.google-map {
+    position: relative;
+    left: 500px;
+    width: 300px;
+    text-align: center;
+    margin-top: -200px;
+}
+
+
+
+.iframe {
+    position: relative;
+    left: 500px;
+    width: 300px;
+    bottom: 500px;
+    text-align: right;
+    margin-top: 300px;
 }

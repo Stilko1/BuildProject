@@ -72,5 +72,14 @@ namespace BuildMaterials.Core.Services
         {
             throw new NotImplementedException();
         }
+        public bool MyOrders(string userId)
+        {
+            var orders = this._context.Orders.Where(x => x.UserId == userId).ToList();
+            if (orders.Count == 0)
+            {
+                return false;
+            }
+            return true;
+        }
     }
 }

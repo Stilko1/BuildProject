@@ -40,7 +40,7 @@
 
 					<!-- Google Translate Button -->
 					<button class="translate-btn" onclick="translatePage()">Translate</button>
-
+					
 					<div id="google_translate_element"></div>
 
 					<script>
@@ -132,21 +132,21 @@
 			<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
 		</div>
 		<div class="offcanvas-body">
-			<a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-			<a class="nav-link " asp-area="" asp-controller="Product" asp-action="Index">All Products</a>
-			<a class="nav-link" asp-area="" asp-controller="Contact" asp-action="Index">Contact</a>
+			<a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">🏠 Home</a>
+			<a class="nav-link " asp-area="" asp-controller="Product" asp-action="Index">🛠️ All Products</a>
+			<a class="nav-link" asp-area="" asp-controller="Contact" asp-action="Index">🌐 Contact</a>
 
 
 			@if ((this.User.Identity.IsAuthenticated))
 			{
 
-				<a class="nav-link " asp-area="" asp-controller="Order" asp-action="MyOrders">My Orders</a>
+				<a class="nav-link " asp-area="" asp-controller="Order" asp-action="MyOrders">🚚 My Orders</a>
 			}
 			@if (User.Identity.IsAuthenticated && User.IsInRole("Administrator"))
 			{
-				<a class="dropdown-item" href="/Client/" Index">Clients</a>
-				<a class="dropdown-item" href="/Order/" Index">Orders</a>
-				<a class="dropdown-item" href="/Statistic/" Index">Statistics</a>
+				<a class="dropdown-item" href="/Client/" Index">👥 Clients</a>
+				<a class="dropdown-item" href="/Order/" Index">📦 Orders</a>
+				<a class="dropdown-item" href="/Statistic/" Index">📊 Statistics</a>
 			}
 
 		</div>

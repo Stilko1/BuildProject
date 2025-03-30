@@ -139,7 +139,9 @@ namespace BuildMaterials.Core.Services
                     ProductId = product.Id,
                     Quantity = finalQuantity,
                     Price = product.Price,
-                    Discount = product.Discount
+                    Discount = product.Discount,
+                    TotalPrice = finalQuantity * (product.Price - product.Price * product.Discount / 100)
+
                 };
                 _context.ShoppingCartItems.Add(cartItem);
             }
@@ -155,6 +157,7 @@ namespace BuildMaterials.Core.Services
                 {
                     cartItem.Quantity = Math.Min(newQuantity, 100);
                 }
+                cartItem.TotalPrice = cartItem.Quantity * (product.Price - product.Price * product.Discount / 100);
             }
 
             return _context.SaveChanges() != 0;
