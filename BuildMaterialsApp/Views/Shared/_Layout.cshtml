@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
 	<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 	<link rel="stylesheet" href="~/BuildMaterialsApp.styles.css" asp-append-version="true" />
+	<link rel="icon"href="~/favicon.png"sizes="64x64" />
 
 	@await RenderSectionAsync("Styles", required: false)
 
@@ -104,6 +105,16 @@
 
 						</li>
 					}
+					<li class="dropdown1">
+						<button class=" dropdown-toggle" type="button" id="dropDownMenuButton1"
+								data-bs-toggle="dropdown" aria-expanded="false">
+							👤
+						</button>
+						<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+							<a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Register</a>
+							<a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Login</a>
+						</ul>
+					</li>
 
 
 

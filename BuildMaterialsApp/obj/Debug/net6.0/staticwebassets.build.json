@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KnVOZsjyn4yHdzehuqIwFlx4gnpQuBYaxzp5SfG4KA4=",
+  "Hash": "dX5Badd1uFBfw8GsR/7kZtgy2GXnaNsGkCVdQVPEFv0=",
   "Source": "BuildMaterialsApp",
   "BasePath": "_content/BuildMaterialsApp",
   "Mode": "Default",
@@ -1543,8 +1543,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "cg7bflsfz9",
-      "Integrity": "fF1aCpnOvYl1r4r2cad2+0o3g5JohMRb2NPiq5Fk45Y=",
+      "Fingerprint": "t1u8xoiptu",
+      "Integrity": "IcvLi9a0EghmmNHdQVDT6pR5ebZnvAol/j+Rfz4rAxY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -3901,51 +3901,6 @@
       ]
     },
     {
-      "Route": "css/site.cg7bflsfz9.css",
-      "AssetFile": "C:\\Users\\stili\\Documents\\StilkoVS\\BuildMaterialsApp\\BuildMaterialsApp\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "16431"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"fF1aCpnOvYl1r4r2cad2+0o3g5JohMRb2NPiq5Fk45Y=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 30 Mar 2025 22:51:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "cg7bflsfz9"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-fF1aCpnOvYl1r4r2cad2+0o3g5JohMRb2NPiq5Fk45Y="
-        }
-      ]
-    },
-    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\stili\\Documents\\StilkoVS\\BuildMaterialsApp\\BuildMaterialsApp\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -3956,7 +3911,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "16431"
+          "Value": "16933"
         },
         {
           "Name": "Content-Type",
@@ -3964,11 +3919,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fF1aCpnOvYl1r4r2cad2+0o3g5JohMRb2NPiq5Fk45Y=\""
+          "Value": "\"IcvLi9a0EghmmNHdQVDT6pR5ebZnvAol/j+Rfz4rAxY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 30 Mar 2025 22:51:44 GMT"
+          "Value": "Wed, 02 Apr 2025 09:17:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3978,7 +3933,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-fF1aCpnOvYl1r4r2cad2+0o3g5JohMRb2NPiq5Fk45Y="
+          "Value": "sha256-IcvLi9a0EghmmNHdQVDT6pR5ebZnvAol/j+Rfz4rAxY="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.t1u8xoiptu.css",
+      "AssetFile": "C:\\Users\\stili\\Documents\\StilkoVS\\BuildMaterialsApp\\BuildMaterialsApp\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16933"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IcvLi9a0EghmmNHdQVDT6pR5ebZnvAol/j+Rfz4rAxY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 09:17:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t1u8xoiptu"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IcvLi9a0EghmmNHdQVDT6pR5ebZnvAol/j+Rfz4rAxY="
         }
       ]
     },
