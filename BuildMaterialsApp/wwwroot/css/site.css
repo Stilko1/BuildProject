@@ -2,10 +2,10 @@ html {
     font-size: 14px;
 }
 
-.header {
+header  {
     margin-left: auto;
     margin-right: auto;
-    background-color:white;
+    background-color: orange;
 }
 
 .offcanvas-body a {
@@ -26,6 +26,8 @@ html {
 body {
     margin-bottom: 60px;
     background-color: white;
+
+
 }
 
 
@@ -122,7 +124,7 @@ header > nav {
 
 .navbar-brand img {
     width: 200px;
-    height: 30px;
+    height: 50px;
 }
 
 background img {
@@ -148,7 +150,6 @@ background img {
     background-color: #ed6c0f;
     color: white;
     border: none;
-    padding: 10px 20px;
     cursor: pointer;
     font-size: 16px;
     border-radius: 5px;
@@ -161,9 +162,10 @@ background img {
     transition: 0.5s;
 }
 
-div.container.fluid {
+.container.fluid {
     width: 10%;
     height: 100vh;
+
 }
 
 
@@ -223,7 +225,7 @@ div.shopping.align-content-left {
     display: flex;
     justify-content: right;
     align-items: end;
-    margin-left: 0%;
+    padding: 10px;
 }
 
 div.d-flex.align-content-left {
@@ -232,14 +234,16 @@ div.d-flex.align-content-left {
     justify-content: right;
     align-items: end;
     margin-left: 0%;
+    padding: 10px;
 }
 
 navbar > .container-fluid {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 10%;
 }
+
 
 
 
@@ -429,6 +433,7 @@ body {
         text-align: center;
         padding-top: 100px;
         font-weight: 100;
+        z-index: 3;
     }
 
     .background p {
@@ -437,6 +442,7 @@ body {
         text-align: center;
         padding-top: 20px;
         font-weight: 100;
+        z-index: 3;
     }
 
 .shadow {
@@ -447,7 +453,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-position: bottom;
-    z-index: 2;
+    z-index: 1;
     position: absolute;
     top: 82px;
     left: 0;
@@ -776,7 +782,16 @@ img {
     text-align: center;
     text-decoration: underline;
     text-shadow: 2px 2px 4px #000000;
+    border: 3px solid darkorange;
+    border-radius: 10px;
+    background-color: darkorange;
 }
+form p {
+    padding: 10px;
+
+  
+}
+
 .text1 {
     font-size: 20px;
     color: white;
@@ -784,6 +799,7 @@ img {
     text-shadow: 2px 2px 4px #000000;
     text-decoration: underline;
 }
+
 .paragraph {
     margin-left: 500px;
     margin-top: -500px;
@@ -794,8 +810,8 @@ img {
     text-align: center;
     text-shadow: 2px 2px 4px #000000;
     position: absolute;
-    
 }
+
 .photo {
     position: absolute;
     margin-left: 140px;
@@ -807,12 +823,22 @@ img {
     text-align: left;
     text-shadow: 2px 2px 4px #000000;
 }
-.paragraph h1 {
-    font-size: 40px;
+
+.paragraph {
+    font-size: 22px;
     color: white;
-    text-align: right;
-    text-decoration: underline;
+    text-align: center;
     text-shadow: 2px 2px 4px #000000;
+    position: absolute;
+    background-color: darkorange;
+    border: 3px solid darkorange;
+    border-radius: 10px;
+}
+
+.body-brick {
+    height: 150vh;
+    width: 99vw;
+    background-color:white;
 }
 
 /*/////// Shrifta na nqkoi tekstove ////////*/
@@ -821,8 +847,15 @@ img {
     font-size: 40px;
     color: white;
     text-align: center;
-    border: 1px solid darkorange;
+    border: 3px solid darkorange;
     text-shadow: 2px 2px 4px #000000;
+    border-radius: 10px;
+    background-color: darkorange;
+    border-right-width: 100px;
+    border-left-width: 100px;
+    position: absolute;
+    left: 450px;
+    top: 1000px;
 }
 
 .badge {
@@ -865,11 +898,12 @@ img1 {
     background-color: #fb770f;
     color: white;
     text-align: left;
-    padding: 1px;
+    padding: 0px;
     position: absolute;
     left: 0;
-    bottom: -600px;
+    bottom: -405px;
     width: 100%;
+    height: 50vh;
     z-index: 100;
 }
 
@@ -891,6 +925,7 @@ img1 {
     text-align: right;
     margin-top: 300px;
 }
+
 .text1 {
     font-size: 22px;
     color: white;
@@ -904,4 +939,9 @@ img1 {
     border-left-width: 100px;
     position: absolute;
     left: 500px;
+    text-decoration: none;
+    top: 500px;
+}
+.div row{
+    margin-left:10px;
 }

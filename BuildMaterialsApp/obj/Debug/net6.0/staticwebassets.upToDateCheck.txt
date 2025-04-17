@@ -11,6 +11,7 @@ wwwroot\css\ShoppingCart\ShoppingCart.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\favicon.png
+wwwroot\Gold House Building Real Estate Logo.png
 wwwroot\image1.jpg
 wwwroot\image2.jpg
 wwwroot\image3.jpg

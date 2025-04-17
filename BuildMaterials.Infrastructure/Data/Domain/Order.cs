@@ -10,6 +10,7 @@ namespace BuildMaterials.Infrastructure.Data.Domain
     public class Order
     {
         public Order() { }
+       
 
         private decimal GetTotalPrice()
         {
@@ -48,7 +49,8 @@ namespace BuildMaterials.Infrastructure.Data.Domain
         public int Quantity { get; set; }
         public decimal Price { get; set; }
         public decimal Discount { get; set; }
-        public decimal TotalPrice { get; private set; }
+        public decimal TotalPrice { get; set; }
+        
 
     }
 }
