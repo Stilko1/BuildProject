@@ -64,6 +64,7 @@ namespace BuildMaterials.Core.Services
                     Quantity = item.Quantity,
                     Price = item.Price,
                     Discount = item.Discount,
+                    TotalPrice = item.TotalPrice
                 });
             }
 

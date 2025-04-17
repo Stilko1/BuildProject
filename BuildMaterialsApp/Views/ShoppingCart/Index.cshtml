@@ -38,8 +38,8 @@ else
                     <td>@item.Quantity</td>
                     <td>@item.TotalPrice.ToString("F2")</td>
                     <td>
-                        <a asp-action="Edit" asp-controller="Order" asp-route-productId="@item.ProductId" class="btn btn-warning">Edit</a>
                         <a asp-action="RemoveFromCart" asp-controller="ShoppingCart" asp-route-productId="@item.ProductId" class="btn btn-danger">Remove</a>
+                 
                     </td>
                 </tr>
             }

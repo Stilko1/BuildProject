@@ -34,7 +34,6 @@ namespace BuildMaterials.Infrastructure.Data.Domain
             Price = price;
             Quantity = quantity;
             Discount = discount;
-            TotalPrice = GetTotalPrice();
         }
         public int Id { get; set; }
         [Required]

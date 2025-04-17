@@ -34,7 +34,9 @@ namespace BuildMaterials.Core.Services
                 product.Price,
                 quantity,
                 product.Discount
+
                 );
+            item.TotalPrice = item.GetTotalPrice(quantity, product.Price, product.Discount);
             product.Quantity -= quantity;
             this._context.Products.Update(product);
             this._context.Orders.Add(item);
